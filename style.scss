@@ -248,7 +248,20 @@ nav {
 //
 // .main
 //
-
+article.page {
+padding: 40px 40px 30px;
+    font-size: 21px;
+	background: #444;
+    border-radius: 10px;
+    
+    margin: 0 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    
+   @include mobile {
+      padding: 20px;
+      font-size: 16px;
+    }
+}
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
